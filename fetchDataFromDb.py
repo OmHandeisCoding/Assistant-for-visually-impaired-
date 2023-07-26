@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 # code_aloe_vera = 8904109498923
 
-client = pymongo.MongoClient("mongodb+srv://admin:admin@nodeexpressprojects.tvkeh9h.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("key")
 
 # Get the database and collection objects
 mydb = client["15-5"]
