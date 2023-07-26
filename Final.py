@@ -51,7 +51,7 @@ print("Barcode => " + barcode)
 
 
 # Create a client to connect to MongoDB
-client = pymongo.MongoClient("mongodb+srv://admin:admin@nodeexpressprojects.tvkeh9h.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("key")
 
 # Get the database and collection objects
 mydb = client["15-5"]
